@@ -1,5 +1,7 @@
 import random
-
+"""Programme permettant de faire jouer 2 machines au jeu de Nim.
+Jeu de Nim: On dispose 21 batonnets l'un à coté de l'autre. 2 joueurs, tour par tour, choisissent 1, 2 ou 3 batonnet. Le joueur récupérant le dernier batonnet a perdu la partie
+Par un jeu de récompense et de punition, on apprend aux machines à trouver le schéma permettant de gagner à tous les coups si on joue en premier."""
 #  création d'une machine composé de n boites et de k billes de chaque types différents:(1, 2, 3) batons
 def nouvelleMachine(n, k):
     machine=[]
